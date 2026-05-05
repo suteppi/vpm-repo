@@ -4,6 +4,8 @@ on:
   workflow_dispatch:
   push:
     branches: [main]
+  repository_dispatch:
+    types: [package-release]
 
 permissions:
   contents: write
@@ -16,7 +18,7 @@ jobs:
 
       - name: Build VPM Listing
         run: |
-          python3 - <<'EOF'
+          python3 - <<'PYEOF'
           import json, os, glob
 
           with open("source/index.json") as f:
@@ -37,7 +39,7 @@ jobs:
               json.dump(listing, f, indent=2)
 
           print("Built Website/index.json")
-          EOF
+          PYEOF
 
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v4
