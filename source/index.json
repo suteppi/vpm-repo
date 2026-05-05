@@ -1,0 +1,10 @@
+{
+  "name": "suteppi's VPM Listing",
+  "id": "com.suteppistore.listing",
+  "url": "https://suteppi.github.io/vpm-repo/index.json",
+  "author": {
+    "name": "suteppi",
+    "url": "https://github.com/suteppi"
+  },
+  "packages": {}
+}
