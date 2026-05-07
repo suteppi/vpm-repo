@@ -7,7 +7,7 @@
     "url": "https://github.com/suteppi"
   },
   "packages": {
-    "com.suteppistore.copyvariant": {
+    "net.suteppi.copyvariant": {
       "versions": {
         "1.0.1": {
           "name": "com.suteppistore.copyvariant",
@@ -21,7 +21,7 @@
             "url": "https://github.com/suteppi/CopyVariant"
           },
           "license": "MIT",
-          "url": "https://github.com/suteppi/CopyVariant/releases/download/v1.0.1/com.suteppistore.copyvariant-1.0.1.zip",
+          "url": "https://github.com/suteppi/CopyVariant/releases/download/v1.0.1/net.suteppi.copyvariant-1.0.1.zip",
           "keywords": [
             "vrChat",
             "avatar",
@@ -42,7 +42,7 @@
             "url": "https://github.com/suteppi/CopyVariant"
           },
           "license": "MIT",
-          "url": "https://github.com/suteppi/CopyVariant/releases/download/v1.0.0/com.suteppistore.copyvariant-1.0.0.zip",
+          "url": "https://github.com/suteppi/CopyVariant/releases/download/v1.0.0/net.suteppi.copyvariant-1.0.0.zip",
           "keywords": [
             "vrChat",
             "avatar",
