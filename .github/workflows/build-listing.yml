@@ -122,10 +122,10 @@ jobs:
                   listing["packages"][pkg_name]["versions"][version] = pkg
 
           os.makedirs("Website", exist_ok=True)
-          with open("Website/index.json", "w") as f:
+          with open("Website/vpm.json", "w") as f:
               json.dump(listing, f, indent=2, ensure_ascii=False)
 
-          print("\nBuilt Website/index.json")
+          print("\nBuilt Website/vpm.json")
           PYEOF
 
       - name: Deploy to GitHub Pages
